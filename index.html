@@ -3,74 +3,63 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Federico Ginosa</title>
-        <meta name="description" content="">
+        <title>menxit</title>
+        <meta name="description" content="Blockchain researcher and developer">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
-            * {
-                margin: 0;
-                padding: 0;
-            }
             body {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                height: 98vh;
-                background: #ffeb3b;
-                padding: 1vh;
-                color: #222;
+                padding: 2em;
+                font-family: Courier;
+                font-weight: lighter;
+                background: #fff;
+                color: #111;
             }
-            h1 {
-                font-family: "Helvetica Neue";
-                font-size: 5em;
-                line-height: .9em;
-                margin-bottom: .6em;
+            .twelve {
+                position: fixed;
+                bottom: 2em;
+                right: 2em;
+                background: #fff;
             }
-            p, li {
-                font-family: Georgia;
-                line-height: 1.5em;
-                font-size: 1em;
-                text-align: justify;
-                hyphens: auto;
-            }
-            .entry {
-                width: 100%;
-                max-width: 500px;
-                padding: 2em 0;
-                border-top: 2px solid #222;
-                border-bottom: 2px solid #222;
-            }
-            .entry__contacts {
-                margin-top: 1em;
-                list-style: none;
-            }
-            .entry__contacts > li {
-                font-family: "Helvetica Neue";
-                float: left;
-                margin-right: 1em;
-            }
-            .entry__contacts > li > a {
-                color: #222;
+            a {
+                color: blue;
                 text-decoration: none;
-                border-bottom: 1px dotted #222;
+                border-bottom: 1px dotted blue;
+            }
+            li {
+                padding: .3em 0;
+            }
+            h2 {
+                padding-top: 1em;
             }
         </style>
     </head>
     <body>
-        <div class="entry">
-            <h1>Federico Ginosa</h1>
-            <p>Mi chiamo Federico Ginosa, ho <span class="anni"></span> anni e programmo da quando ne ho 10. Sono laureato in Ingegneria Informatica a Roma Tre.</p>
-            <ul class="entry__contacts">
-                <li><a target="_blank" href="https://keybase.io/menxit/pgp_keys.asc?fingerprint=8bbcedaa4509bd301e885ca879d8827cc023e144">PGP key</a></li>
-                <li><a target="_blank" href="https://github.com/menxit">Github</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/">Linkedin</a></li>
-            </ul>
-        </div>
-        <script>
-            const anni = (new Date()).getFullYear()-1993;
-            document.getElementsByClassName("anni")[0].innerText = anni;
-        </script>
+        <span class="twelve">12</span>
+        <h1>federico ginosa (@menxit)</h1>
+        <h2>projects</h2>
+        <ul>
+            <li><a target="_blank" href="https://github.com/idelse/idena-ledger">idena-ledger</a></li>
+            <li><a target="_blank" href="http://pocket.idena.dev">idena-pocket</a></li>
+            <li><a target="_blank" href="https://github.com/menxit/avalanche-ts">avalanche-ts</a></li>
+            <li><a target="_blank" href="/implementazione-in-typescript-e-sperimentazione-dell-architettura-fulgurhub-per-la-scalabilita-blockchain.pdf">fulgur-hub (master's thesis)</a></li>
+        </ul>
+        <h2>job</h2>
+        <ul>
+            <li>blockchain reasearcher and dev at <a target="_blank" href="https://fulgurlab.com">fulgurlab</a></li>
+            <li>dev at <a target="_blank" href="https://rebrandly.com/">rebrandly</a></li>
+            <li>dev at <a target="_blank" href="https://gigasweb.it">gigasweb</a></li>
+        </ul>
+        <h2>links</h2>
+        <ul>
+            <li><a target="_blank" href="https://github.com/menxit">github</a></li>
+            <li><a target="_blank" href="https://keybase.io/menxit">keybase</a></li>
+            <li><a target="_blank" href="https://twitter.com/FedericoGinosa">twitter</a></li>
+            <li><a target="_blank" href="https://www.reddit.com/user/menxit_/">reddit</a></li>
+        </ul>
+        <h2>education</h2>
+        <ul>
+            <li>B.Sc. and M.Sc. in Computer Engineering, Università degli Studi "Roma Tre"</li>
+        </ul>
     </body>
 </html>
 
